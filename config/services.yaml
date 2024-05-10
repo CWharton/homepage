@@ -1,0 +1,210 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- Servers:
+    - Portainer:
+        href: https://10.18.210.10:9443
+        ping: 10.18.210.201
+        widget:
+            type: portainer
+            url: https://10.18.210.10:9443
+            env: 2
+            key: ptr_eeD5ReD3SRChrKdrNfLNjuPCwmYMHhSMlICt70P+e0I=
+
+    - Killeen Auto Server 1 (Synology):
+        href: https:10.18.210.10:5001
+        widget:
+            type: diskstation
+            url: https://10.18.210.10:5001
+            username: cwharton
+            password: K1ll_$w1tch
+
+    - Killeen Auto Server 2 (Fedora):
+        href: https://10.18.210.12:9090
+        ping: 10.18.210.12
+    
+    - DiskStation Database:
+        href: https://10.18.210.6
+        description: Manage WiFi access points
+
+    - Automate (ConnectWise): 
+        href: https://labtech.barcoment.com/automate/login
+        icon: https://labtech.barcoment.com/automate/favicon.ico
+        description: Barcom computer info 
+
+
+- I.T Applications:
+    - Support Tickets:
+        href: https://support.killeenauto.local/scp/
+        icon: http://support.killeenauto.local/images/oscar-favicon-32x32.png
+        description: OSTicket agent console 
+    
+    - A.I.M.S. (Inventory):
+        href: http://aims.killeenauto.local/
+        description: Manage I.T. inventory 
+    
+    - Vonage (Phones):
+        href: https://admin.vonage.com
+        icon: https://admin.vonage.com/assets/images/Vicon_16@2x.png
+        description: Mange VOIP phone system 
+    
+    - Google Admin:
+        href: https://admin.google.com
+        icon: https://ssl.gstatic.com/apps/cpanel/resources/logo/brand/admin_favicon.png
+        description: Manage emails and Google docs 
+    
+    - Killeen Auto SIEM (Wazuh):
+        href: https://siem.killeenauto.local/
+        icon: https://siem.killeenauto.local/ui/favicons/favicon-32x32.png
+        description: Security information and event management
+    
+    - Mimecast: 
+        href: https://login.mimecast.com/"
+        icon: https://login.mimecast.com/u/assets/images/connect_favicon.ico
+        description: Manage emails security 
+
+    - Microsoft Admin: 
+        href: https://admin.microsoft.com
+        icon: https://aadcdn.msftauth.net/shared/1.0/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico
+        description: Manage Office365 accounts 
+
+- Networking:
+    - Ford Gateway (Sonic Wall):
+        href: https://10.18.210.201/
+        description: Ford Router
+        ping: 10.18.210.201
+
+    - Service Gateway (Sonic Wall):
+        href: https://10.18.210.201/
+        description: Service Router
+        ping: 10.18.216.1
+
+    - Preowned Gateway (pfSence):
+        href: https://10.18.213.2
+        description: Creek Router
+        ping: 10.18.213.2
+
+    - Volkswagen Gateway (pfSence):
+        href: https://10.18.215.1
+        description: Volkswagen Router
+        ping: 10.18.215.1
+
+    - Ubiquity UniFi:
+        href: https://10.18.210.6
+        description: Manage WiFi access points
+        ping: 10.18.210.6
+        widget:
+            type: unifi
+            url: https://10.18.210.6
+            username: username
+            password: password
+ 
+- Wireless Bridges:
+    - Ford to Creek Bridge:
+        href: https://10.10.11.10/
+        ping: 10.10.11.10
+    - Creek to Ford Bridge:
+        href: https://10.10.11.11/
+        ping: 10.10.11.11
+    - Ford to VW Bridge:
+        href: hhttps://10.10.11.12/
+        ping: 10.10.11.12
+    - VW to Ford Bridge:
+        href: https://10.10.11.13/
+        ping: 10.10.11.13
+    - Ford to Service Bridge:
+        href: https://10.10.11.14/
+        ping: 10.10.11.14
+    - Service to Ford Bridge:
+        href: https://10.10.11.15
+        ping: 10.10.11.15   
+
+- Service Networking:
+    - Switch 1:
+        href: https://10.18.216.2
+        ping: 10.18.216.2
+    - Switch 2:
+        href: https://10.18.216.3
+        ping: 10.18.216.3
+    - Switch 3:
+        href: https://10.18.216.4
+        ping: 10.18.216.4
+    - Switch 4:
+        href: https://10.18.216.5
+        ping: 10.18.216.5
+    - Switch 5:
+        href: https://10.18.216.6
+        ping: 10.18.216.6
+    - Switch 6:
+        href: https://10.18.216.7
+        ping: 10.18.216.7
+    - Switch 7:
+        href: https://10.18.216.8
+        ping: 10.18.216.8
+    - Switch 8:
+        href: https://10.18.216.9
+        ping: 10.18.216.9
+    - Switch 9:
+        href: https://10.18.216.10
+        ping: 10.18.216.10
+
+- Ford Networking:
+    - Switch 1:
+        href: https://10.18.210.246
+        ping: 10.18.210.246
+    - Switch 2:
+        href: https://10.18.210.223
+        ping: 10.18.210.223
+    - Switch 3:
+        href: http://10.18.210.249
+        ping: 10.18.210.249
+    - Switch 4:
+        href: https://10.18.210.152
+        ping: 10.18.210.152
+    - Switch 5:
+        href: https://10.18.210.239
+        ping: 10.18.210.239
+
+- Hyundai Networking:
+    - Switch 1:
+        href: https://10.18.210.246
+        description: Womans Restroom
+        ping: 10.18.210.246
+    - Switch 2:
+        href: https://10.18.210.224
+        description: Network Closet
+        ping: 10.18.210.224
+
+- Volkswagen Networking:
+    - Switch 1:
+        href: https://10.18.215.2
+        ping: 10.18.215.2
+    - Switch 2:
+        href: https://10.18.215.3
+        ping: 10.18.215.3
+    - Switch 3:
+        href: https://10.18.215.4
+        ping: 10.18.215.4
+    - Switch 4:
+        href: https://10.18.215.5
+        ping: 10.18.215.5
+
+- Certified Networking:
+    - Switch 1:
+        href: https://10.18.213.5
+        ping: 10.18.213.5
+
+
+- Security Cameras:
+    - Pro-Vigis Portal:
+        href: https://portal.pro-vigil.info/
+        description: Manage Pro-Vigil Account
+    - Pro-Vigis Ford:
+        href: https://f1359-nas2.us6.quickconnect.to/
+    - Pro-Vigis Certified:
+        href: https://f1356-nas1.us5.quickconnect.to/
+    - Pro-Vigis Service:
+        href: https://f1355-nas1.us5.quickconnect.to/
+    - Pro-Vigis Volkswagen:
+        href: https://f1357-nas1.us1.quickconnect.to/

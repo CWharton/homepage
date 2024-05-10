@@ -1,0 +1,46 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/settings
+title: KA Bookmarks (ADMIN)
+favicon: https://www.killeencertified.com/assets/d2353/img/favicon_killeen-certified.png
+cardBlur: sm # sm, "", md, etc... see https://tailwindcss.com/docs/backdrop-blur
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
+
+background:
+  image: https://images.unsplash.com/photo-1502790671504-542ad42d5189?auto=format&fit=crop&w=2560&q=80
+  opacity: 30 # 0-100
+
+layout:
+  Servers:
+    tab: Main
+  I.T Applications:
+    tab: Main
+  Networking:
+    tab: Main
+  Applications:
+    tab: Main
+    style: row
+    columns: 4
+  Copy Machines:
+    tab: Main
+    style: row
+    columns: 4
+
+  Wireless Bridges:
+    tab: Networking 
+  Service Networking:
+    tab: Networking
+  Ford Networking:
+    tab: Networking
+  Hyundai Networking:
+    tab: Networking
+  Volkswagen Networking:
+    tab: Networking
+  Certified Networking:
+    tab: Networking 
+
+  Security Cameras:
+    tab: Cameras

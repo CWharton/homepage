@@ -1,0 +1,76 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/bookmarks
+
+- Applications:
+    - Car Wars:
+        - href: https://www.carwars.com/
+          icon: https://carwars.com/main/wp-content/uploads/2024/01/Favlcon-with-padding.png
+    - TrueSpot:
+        - href: https://lm360.truespot.com/
+          icon: https://truespot.com/wp-content/uploads/2022/08/cropped-truespot_favicon-32x32.png
+    - eLead CRM:
+        - href: https://www.eleadcrm.com/
+          abbr: eL
+    - APEX Protect:
+        - href: https://app.apexprotectgps.com
+          icon: https://s3.amazonaws.com/brand-assets.svrtracker.com/apex/favicons/favicon-32x32.png
+          description: GPS
+    - F&Insight:
+        - href: https://www.fi-insight.com/
+          abbr: FI
+    - D.S.G.S.S.:
+        - href: https://my.dsgss.com
+          abbr: CA
+          description: Credit App
+    - CDK Admin:
+        - href: https://admin.connectcdk.com/enterprise/E212439
+          abbr: CDK
+    - CDK Toner eStore:
+        - href: https://sso.dealersuite.com/eStoreToner/#/home
+          abbr: CDK
+    - Hyundai Finance:
+        - href: https://www.hmfdealeraccess.com/
+          abbr: HF
+          description: Hyundai FI
+    - RouteOne:
+        - href: https://www.routeone.net/Web/BIServlet?captiveId=ROUTEONE
+          icon: https://www.routeone.net/casstatic/staticweb/images/favicon.ico
+    - VW Credit:
+        - href: https://dealers.vwcredit.com
+          icon: https://prod.flex.cafe/content/skins/vw/fav/favicon-32x32.png
+    - Volkswagen Direct:
+        - href: https://volkswagendirect.us/
+          icon: https://prod.flex.cafe/content/skins/vw/fav/favicon-32x32.png
+    - Volkswagen GRP:
+        - href: https://grp.volkswagenag.com
+          icon: https://content.tsdweb.com/prod/deploy/atlas-client/release.v1.3.15-4704/static/images/favicon.ico
+    - vAuto:
+        - href: https://www2.vauto.com/Va/Share/Login.aspx?_unauththeme=Provision
+          icon: https://cdn-np.va-np.aws.vauto.com/Internal/Va/2024.05.05.0050/Share/Images/menu/branding2024/favicon.png
+    - Texas DMV:
+        - href: https://etag.txdmv.gov/
+          abbr: DMV
+    - TSD:
+        - href: https://cirro.tsdweb.com
+          icon: https://content.tsdweb.com/prod/deploy/atlas-client/release.v1.3.15-4704/static/images/favicon.ico
+          description: Service Loaners
+    - ProDemand:
+        - href: https://www.prodemand.com/
+          icon: https://www.prodemand.com/favicon.ico
+          description: Mitchell
+    - Ford Stars:
+        - href: https://www.starsxp.dealerconnection.com/
+          icon: https://www.ford.com/cmslibs/etc/designs/common/skin/ford/img/shared/favicon.png
+          description: Ford training
+
+- Copy Machines:
+  - Ford Showroom (EQ0382):
+    - href: http://10.18.210.219/
+      abbr: CP
+  - VW Showroom (EQ0132):
+    - href: http://10.18.215.56/
+      abbr: CP
+  - Certified Showroom:
+    - href: http://10.18.213.220/
+      abbr: CP
