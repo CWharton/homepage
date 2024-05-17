@@ -3,6 +3,9 @@
 # https://gethomepage.dev/latest/configs/bookmarks
 
 - Applications:
+    - CDK Admin:
+        - href: https://admin.connectcdk.com/enterprise/E212439
+          abbr: CDK
     - Car Wars:
         - href: https://www.carwars.com/
           icon: https://carwars.com/main/wp-content/uploads/2024/01/Favlcon-with-padding.png
@@ -23,9 +26,6 @@
         - href: https://my.dsgss.com
           abbr: CA
           description: Credit App
-    - CDK Admin:
-        - href: https://admin.connectcdk.com/enterprise/E212439
-          abbr: CDK
     - CDK Toner eStore:
         - href: https://sso.dealersuite.com/eStoreToner/#/home
           abbr: CDK
@@ -42,9 +42,6 @@
     - Volkswagen Direct:
         - href: https://volkswagendirect.us/
           icon: https://prod.flex.cafe/content/skins/vw/fav/favicon-32x32.png
-    - Volkswagen GRP:
-        - href: https://grp.volkswagenag.com
-          icon: https://content.tsdweb.com/prod/deploy/atlas-client/release.v1.3.15-4704/static/images/favicon.ico
     - vAuto:
         - href: https://www2.vauto.com/Va/Share/Login.aspx?_unauththeme=Provision
           icon: https://cdn-np.va-np.aws.vauto.com/Internal/Va/2024.05.05.0050/Share/Images/menu/branding2024/favicon.png
@@ -59,10 +56,32 @@
         - href: https://www.prodemand.com/
           icon: https://www.prodemand.com/favicon.ico
           description: Mitchell
-    - Ford Stars:
-        - href: https://www.starsxp.dealerconnection.com/
-          icon: https://www.ford.com/cmslibs/etc/designs/common/skin/ford/img/shared/favicon.png
-          description: Ford training
+    - Volkswagen AC:
+        - href: http://10.18.215.20/
+          abbr: AC
+          description: 10.18.215.20
+
+- Manufactures:
+  - Hyundai Dealer:
+    - href: https://wdcs.hyundaidealer.com/
+      description: TX197
+      abbr: HY
+  - VWHub:
+    - href: https://www.vwhub.com/
+      description: 425175
+      icon: https://prod.flex.cafe/content/skins/vw/fav/favicon-32x32.png
+  - Volkswagen GRP:
+    - href: https://grp.volkswagenag.com
+      description: USA425175V
+      abbr: VW
+  - Ford:
+    - href: http://fmcdealer.com 
+      description: 02504
+      icon: https://www.ford.com/cmslibs/etc/designs/common/skin/ford/img/shared/favicon.png
+  - Ford Stars:
+    - href: https://www.starsxp.dealerconnection.com/
+      icon: https://www.ford.com/cmslibs/etc/designs/common/skin/ford/img/shared/favicon.png
+      description: Training 
 
 - Copy Machines:
   - Ford Showroom (EQ0382):
@@ -74,3 +93,4 @@
   - Certified Showroom:
     - href: http://10.18.213.220/
       abbr: CP
+  

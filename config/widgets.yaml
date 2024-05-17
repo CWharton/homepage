@@ -13,20 +13,6 @@
         timeStyle: short
         hour12: true
 
-- resources:
-    label: Killeen Auto Server 1
-    cpu: true
-    memory: true
-    cputemp: true
-    units: imperial # only used by cpu temp
-    refresh: 3000 # optional, in ms
-- resources:
-    label: Uptime
-    uptime: true
-- resources:
-    label: Storage
-    disk: /
-
 - openmeteo:
     label: Killeen 
     latitude: 31.0863

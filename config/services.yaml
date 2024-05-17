@@ -56,7 +56,7 @@
     
     - Killeen Auto SIEM (Wazuh):
         href: https://siem.killeenauto.local/
-        icon: https://siem.killeenauto.local/ui/favicons/favicon-32x32.png
+        icon: http://siem.killeenauto.local/ui/favicons/favicon-32x32.png
         description: Security information and event management
     
     - Mimecast: 
@@ -70,35 +70,33 @@
         description: Manage Office365 accounts 
 
 - Networking:
+    - Ford Status:
+        href: http://10.18.210.10:3001/status/ford
+        widget:
+            type: uptimekuma
+            url: http://10.18.210.10:3001
+            slug: ford
+
     - Ford Gateway (Sonic Wall):
         href: https://10.18.210.201/
-        description: Ford Router
         ping: 10.18.210.201
 
     - Service Gateway (Sonic Wall):
         href: https://10.18.210.201/
-        description: Service Router
         ping: 10.18.216.1
 
     - Preowned Gateway (pfSence):
         href: https://10.18.213.2
-        description: Creek Router
         ping: 10.18.213.2
 
     - Volkswagen Gateway (pfSence):
         href: https://10.18.215.1
-        description: Volkswagen Router
         ping: 10.18.215.1
 
     - Ubiquity UniFi:
         href: https://10.18.210.6
-        description: Manage WiFi access points
         ping: 10.18.210.6
-        widget:
-            type: unifi
-            url: https://10.18.210.6
-            username: username
-            password: password
+
  
 - Wireless Bridges:
     - Ford to Creek Bridge:

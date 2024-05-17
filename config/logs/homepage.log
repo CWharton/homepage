@@ -1232,3 +1232,5 @@
 [2024-05-10T17:25:00.416Z] error: <unifiProxyHandler> HTTP 429 logging in to Unifi. Data: {"code":"AUTHENTICATION_FAILED_LIMIT_REACHED","message":"You've reached the login attempt limit","level":"debug"}
 [2024-05-10T17:25:53.135Z] error: <unifiProxyHandler> HTTP 429 logging in to Unifi. Data: {"code":"AUTHENTICATION_FAILED_LIMIT_REACHED","message":"You've reached the login attempt limit","level":"debug"}
 [2024-05-10T17:25:53.555Z] error: <unifiProxyHandler> HTTP 429 logging in to Unifi. Data: {"code":"AUTHENTICATION_FAILED_LIMIT_REACHED","message":"You've reached the login attempt limit","level":"debug"}
+[2024-05-10T18:02:17.446Z] error: <unifiProxyHandler> HTTP 403 logging in to Unifi. Data: {"code":"AUTHENTICATION_FAILED_INVALID_CREDENTIALS","message":"Invalid username or password","level":"debug"}
+[2024-05-16T16:35:25.362Z] error: undefined

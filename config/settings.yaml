@@ -24,6 +24,10 @@ layout:
     tab: Main
     style: row
     columns: 4
+  Manufactures:
+    tab: Main
+    style: row
+    columns: 4
   Copy Machines:
     tab: Main
     style: row
