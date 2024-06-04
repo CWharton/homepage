@@ -69,7 +69,7 @@
         icon: https://aadcdn.msftauth.net/shared/1.0/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico
         description: Manage Office365 accounts 
 
-- Networking:
+- Monitors:
     - Ford Status:
         href: http://10.18.210.10:3001/status/ford
         widget:
@@ -77,6 +77,36 @@
             url: http://10.18.210.10:3001
             slug: ford
 
+    - Service Status:
+        href: http://10.18.210.10:3001/status/service
+        widget:
+            type: uptimekuma
+            url: http://10.18.210.10:3001
+            slug: service
+
+    - Volkswagen Status:
+        href: http://10.18.210.10:3001/status/volkswagen
+        widget:
+            type: uptimekuma
+            url: http://10.18.210.10:3001
+            slug: volkswagen
+
+    - Hyundai Status:
+        href: http://10.18.210.10:3001/status/hyundai
+        widget:
+            type: uptimekuma
+            url: http://10.18.210.10:3001
+            slug: hyundai
+
+    - Certified Status:
+        href: http://10.18.210.10:3001/status/certified
+        widget:
+            type: uptimekuma
+            url: http://10.18.210.10:3001
+            slug: certified
+
+
+- Networking:
     - Ford Gateway (Sonic Wall):
         href: https://10.18.210.201/
         ping: 10.18.210.201
@@ -195,6 +225,13 @@
 
 
 - Security Cameras:
+    - Cameras Status:
+        href: http://10.18.210.10:3001/status/cameras
+        widget:
+            type: uptimekuma
+            url: http://10.18.210.10:3001
+            slug: cameras
+
     - Pro-Vigis Portal:
         href: https://portal.pro-vigil.info/
         description: Manage Pro-Vigil Account

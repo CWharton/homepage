@@ -18,7 +18,7 @@ layout:
     tab: Main
   I.T Applications:
     tab: Main
-  Networking:
+  Monitors:
     tab: Main
   Applications:
     tab: Main
@@ -33,6 +33,8 @@ layout:
     style: row
     columns: 4
 
+  Networking:
+    tab: Networking 
   Wireless Bridges:
     tab: Networking 
   Service Networking:
@@ -47,4 +49,6 @@ layout:
     tab: Networking 
 
   Security Cameras:
+    tab: Cameras
+  Cameras Status:
     tab: Cameras
