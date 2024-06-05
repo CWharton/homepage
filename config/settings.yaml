@@ -33,13 +33,9 @@ layout:
     style: row
     columns: 4
 
-  Networking:
-    tab: Networking 
-  Wireless Bridges:
-    tab: Networking 
-  Service Networking:
-    tab: Networking
   Ford Networking:
+    tab: Networking
+  Service Networking:
     tab: Networking
   Hyundai Networking:
     tab: Networking

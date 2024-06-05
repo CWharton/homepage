@@ -28,6 +28,10 @@
         href: https://10.18.210.6
         description: Manage WiFi access points
 
+    - Ubiquity UniFi:
+        href: https://10.18.210.6
+        ping: 10.18.210.6
+
     - Automate (ConnectWise): 
         href: https://labtech.barcoment.com/automate/login
         icon: https://labtech.barcoment.com/automate/favicon.ico
@@ -105,121 +109,108 @@
             url: http://10.18.210.10:3001
             slug: certified
 
-
-- Networking:
+- Ford Networking:
     - Ford Gateway (Sonic Wall):
         href: https://10.18.210.201/
         ping: 10.18.210.201
-
-    - Service Gateway (Sonic Wall):
-        href: https://10.18.210.201/
-        ping: 10.18.216.1
-
-    - Preowned Gateway (pfSence):
-        href: https://10.18.213.2
-        ping: 10.18.213.2
-
-    - Volkswagen Gateway (pfSence):
-        href: https://10.18.215.1
-        ping: 10.18.215.1
-
-    - Ubiquity UniFi:
-        href: https://10.18.210.6
-        ping: 10.18.210.6
-
- 
-- Wireless Bridges:
-    - Ford to Creek Bridge:
+    - Ford to Certified Bridge:
         href: https://10.10.11.10/
         ping: 10.10.11.10
-    - Creek to Ford Bridge:
-        href: https://10.10.11.11/
-        ping: 10.10.11.11
-    - Ford to VW Bridge:
+    - Ford to Volkswagen Bridge:
         href: hhttps://10.10.11.12/
         ping: 10.10.11.12
-    - VW to Ford Bridge:
-        href: https://10.10.11.13/
-        ping: 10.10.11.13
     - Ford to Service Bridge:
         href: https://10.10.11.14/
         ping: 10.10.11.14
-    - Service to Ford Bridge:
-        href: https://10.10.11.15
-        ping: 10.10.11.15   
+    - Ford Switch 1:
+        href: https://10.18.210.225
+        ping: 10.18.210.225
+    - Ford Switch 2:
+        href: https://10.18.210.247
+        ping: 10.18.210.247
+    - Ford Switch 3:
+        href: http://10.18.210.223
+        ping: 10.18.210.223
+    - Ford Switch 4:
+        href: https://10.18.210.229
+        ping: 10.18.210.229
+    - Ford Switch 5:
+        href: https://10.18.210.249
+        ping: 10.18.210.249
 
 - Service Networking:
-    - Switch 1:
+    - Service Gateway (Sonic Wall) [MDF]:
+        href: https://108.178.98.22
+        ping: 108.178.98.22
+    - Service to Ford Bridge [IDF2]:
+        href: https://10.10.11.15
+        ping: 10.10.11.15   
+    - Service Switch 1 [IDF2]:
         href: https://10.18.216.2
         ping: 10.18.216.2
-    - Switch 2:
+    - Service Switch 2 [IDF2]:
         href: https://10.18.216.3
         ping: 10.18.216.3
-    - Switch 3:
+    - Service Switch 3 [IDF1]:
         href: https://10.18.216.4
         ping: 10.18.216.4
-    - Switch 4:
+    - Service Switch 4 [IDF1]:
         href: https://10.18.216.5
         ping: 10.18.216.5
-    - Switch 5:
+    - Service Switch 5 [IDF1]:
         href: https://10.18.216.6
         ping: 10.18.216.6
-    - Switch 6:
+    - Service Switch 6 [IDF1]:
         href: https://10.18.216.7
         ping: 10.18.216.7
-    - Switch 7:
+    - Service Switch 7 [MDF]:
         href: https://10.18.216.8
         ping: 10.18.216.8
-    - Switch 8:
+    - Service Switch 8 [MDF]:
         href: https://10.18.216.9
         ping: 10.18.216.9
-    - Switch 9:
+    - Service Switch 9 [MDF]:
         href: https://10.18.216.10
         ping: 10.18.216.10
 
-- Ford Networking:
-    - Switch 1:
-        href: https://10.18.210.246
-        ping: 10.18.210.246
-    - Switch 2:
-        href: https://10.18.210.223
-        ping: 10.18.210.223
-    - Switch 3:
-        href: http://10.18.210.249
-        ping: 10.18.210.249
-    - Switch 4:
-        href: https://10.18.210.152
-        ping: 10.18.210.152
-    - Switch 5:
-        href: https://10.18.210.239
-        ping: 10.18.210.239
-
 - Hyundai Networking:
-    - Switch 1:
-        href: https://10.18.210.246
-        description: Womans Restroom
-        ping: 10.18.210.246
-    - Switch 2:
-        href: https://10.18.210.224
+    - Hyundai Switch 1:
         description: Network Closet
-        ping: 10.18.210.224
+        href: https://10.18.210.248
+        ping: 10.18.210.248
+    - Hyundai Switch 2:
+        description: Womans Restroom
+        href: https://10.18.210.246
+        ping: 10.18.210.246
 
 - Volkswagen Networking:
-    - Switch 1:
+    - Volkswagen Gateway (pfSence):
+        href: https://10.18.215.1
+        ping: 10.18.215.1
+    - Volkswagen to Ford Bridge:
+        href: https://10.10.11.13/
+        ping: 10.10.11.13
+    - Volkswagen Switch 1:
         href: https://10.18.215.2
         ping: 10.18.215.2
-    - Switch 2:
+    - Volkswagen Switch 2:
         href: https://10.18.215.3
         ping: 10.18.215.3
-    - Switch 3:
+    - Volkswagen Switch 3:
         href: https://10.18.215.4
         ping: 10.18.215.4
-    - Switch 4:
+    - Volkswagen Switch 4:
         href: https://10.18.215.5
         ping: 10.18.215.5
 
 - Certified Networking:
-    - Switch 1:
+    - Certified Gateway (pfSence):
+        href: https://10.18.213.2
+        ping: 10.18.213.2
+    - Certified to Ford Bridge:
+        href: https://10.10.11.11/
+        ping: 10.10.11.11
+    - Certified Switch 1:
         href: https://10.18.213.5
         ping: 10.18.213.5
 
