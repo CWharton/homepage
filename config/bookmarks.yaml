@@ -62,35 +62,34 @@
           description: 10.18.215.20
 
 - Manufactures:
-  - Hyundai Dealer:
-    - href: https://wdcs.hyundaidealer.com/
-      description: TX197
-      abbr: HY
-  - VWHub:
-    - href: https://www.vwhub.com/
-      description: 425175
-      icon: https://prod.flex.cafe/content/skins/vw/fav/favicon-32x32.png
-  - Volkswagen GRP:
-    - href: https://grp.volkswagenag.com
-      description: USA425175V
-      abbr: VW
-  - Ford:
-    - href: http://fmcdealer.com 
-      description: 02504
-      icon: https://www.ford.com/cmslibs/etc/designs/common/skin/ford/img/shared/favicon.png
-  - Ford Stars:
-    - href: https://www.starsxp.dealerconnection.com/
-      icon: https://www.ford.com/cmslibs/etc/designs/common/skin/ford/img/shared/favicon.png
-      description: Training 
+    - Hyundai Dealer:
+        - href: https://wdcs.hyundaidealer.com/
+          description: TX197
+          abbr: HY
+    - VWHub:
+        - href: https://www.vwhub.com/
+          description: 425175
+          icon: https://prod.flex.cafe/content/skins/vw/fav/favicon-32x32.png
+    - Volkswagen GRP:
+        - href: https://grp.volkswagenag.com
+          description: 425175
+          abbr: VW
+    - Ford FMC Dealer:
+        - href: http://fmcdealer.com
+          description: 02504
+          icon: https://www.ford.com/cmslibs/etc/designs/common/skin/ford/img/shared/favicon.png
+    - Ford Stars:
+        - href: https://www.starsxp.dealerconnection.com/
+          icon: https://www.ford.com/cmslibs/etc/designs/common/skin/ford/img/shared/favicon.png
+          description: Training
 
 - Copy Machines:
-  - Ford Showroom (EQ0382):
-    - href: http://10.18.210.219/
-      abbr: CP
-  - VW Showroom (EQ0132):
-    - href: http://10.18.215.56/
-      abbr: CP
-  - Certified Showroom:
-    - href: http://10.18.213.220/
-      abbr: CP
-  
+    - Ford Showroom (EQ0382):
+        - href: http://10.18.210.219/
+          abbr: CP
+    - VW Showroom (EQ0132):
+        - href: http://10.18.215.56/
+          abbr: CP
+    - Certified Showroom:
+        - href: http://10.18.213.220/
+          abbr: CP
