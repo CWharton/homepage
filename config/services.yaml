@@ -112,6 +112,7 @@
 - Ford Networking:
     - Ford Gateway (Sonic Wall):
         href: https://10.18.210.201/
+        description: 67.79.250.250
         ping: 10.18.210.201
     - Ford to Certified Bridge:
         href: https://10.10.11.10/
@@ -140,8 +141,9 @@
 
 - Service Networking:
     - Service Gateway (Sonic Wall) [MDF]:
-        href: https://108.178.98.22
-        ping: 108.178.98.22
+        href: https://10.18.216.1
+        description: 108.178.98.22
+        ping: 10.18.216.1
     - Service to Ford Bridge [IDF2]:
         href: https://10.10.11.15
         ping: 10.10.11.15   
@@ -202,6 +204,9 @@
     - Volkswagen Switch 4:
         href: https://10.18.215.5
         ping: 10.18.215.5
+    - Volkswagen Switch 6:
+        href: https://10.18.215.8
+        ping: 10.18.215.8
 
 - Certified Networking:
     - Certified Gateway (pfSence):
