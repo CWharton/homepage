@@ -64,7 +64,7 @@
         description: Security information and event management
     
     - Mimecast: 
-        href: https://login.mimecast.com/"
+        href: https://login.mimecast.com"
         icon: https://login.mimecast.com/u/assets/images/connect_favicon.ico
         description: Manage emails security 
 

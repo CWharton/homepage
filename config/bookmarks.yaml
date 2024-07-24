@@ -6,6 +6,9 @@
     - CDK Admin:
         - href: https://admin.connectcdk.com/enterprise/E212439
           abbr: CDK
+    - ID Scanner:
+        - href: https://extranet.dealercentric.com/dashboard/login
+          abbr: ID
     - Car Wars:
         - href: https://www.carwars.com/
           icon: https://carwars.com/main/wp-content/uploads/2024/01/Favlcon-with-padding.png
@@ -90,6 +93,9 @@
     - VW Showroom (EQ0132):
         - href: http://10.18.215.56/
           abbr: CP
-    - Certified Showroom:
+    - Service Cashiers (EQ0096):
+        - href: http://10.18.216.103/
+          abbr: CP
+    - Certified Showroom (EQ):
         - href: http://10.18.213.220/
           abbr: CP
