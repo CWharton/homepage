@@ -32,6 +32,9 @@
         href: https://10.18.210.6
         ping: 10.18.210.6
 
+    - Ubiquity UISP:
+        href: https://killeenauto.uisp.com/
+
     - Automate (ConnectWise): 
         href: https://labtech.barcoment.com/automate/login
         icon: https://labtech.barcoment.com/automate/favicon.ico
@@ -118,25 +121,25 @@
         href: https://10.10.11.10/
         ping: 10.10.11.10
     - Ford to Volkswagen Bridge:
-        href: hhttps://10.10.11.12/
+        href: https://10.10.11.12/
         ping: 10.10.11.12
     - Ford to Service Bridge:
         href: https://10.10.11.14/
         ping: 10.10.11.14
-    - Ford Switch 1:
+    - Ford Switch 1 (EdgeSwitch):
         href: https://10.18.210.225
         ping: 10.18.210.225
-    - Ford Switch 2:
+    - Ford Switch 2 (EdgeSwitch):
         href: https://10.18.210.247
         ping: 10.18.210.247
-    - Ford Switch 3:
+    - Ford Switch 3 (Cisco):
         href: http://10.18.210.223
         ping: 10.18.210.223
-    - Ford Switch 4:
-        href: https://10.18.210.229
+    - Ford Switch 4 (Cisco):
+        href: http://10.18.210.229
         ping: 10.18.210.229
-    - Ford Switch 5:
-        href: https://10.18.210.249
+    - Ford Switch 5 (Cisco):
+        href: http://10.18.210.249
         ping: 10.18.210.249
 
 - Service Networking:
@@ -147,31 +150,31 @@
     - Service to Ford Bridge [IDF2]:
         href: https://10.10.11.15
         ping: 10.10.11.15   
-    - Service Switch 1 [IDF2]:
+    - Service Switch 1 [IDF2] (EdgeSwitch):
         href: https://10.18.216.2
         ping: 10.18.216.2
-    - Service Switch 2 [IDF2]:
+    - Service Switch 2 [IDF2] (EdgeSwitch):
         href: https://10.18.216.3
         ping: 10.18.216.3
-    - Service Switch 3 [IDF1]:
+    - Service Switch 3 [IDF1] (EdgeSwitch):
         href: https://10.18.216.4
         ping: 10.18.216.4
-    - Service Switch 4 [IDF1]:
+    - Service Switch 4 [IDF1] (EdgeSwitch):
         href: https://10.18.216.5
         ping: 10.18.216.5
-    - Service Switch 5 [IDF1]:
+    - Service Switch 5 [IDF1] (EdgeSwitch):
         href: https://10.18.216.6
         ping: 10.18.216.6
-    - Service Switch 6 [IDF1]:
+    - Service Switch 6 [IDF1] (EdgeSwitch):
         href: https://10.18.216.7
         ping: 10.18.216.7
-    - Service Switch 7 [MDF]:
+    - Service Switch 7 [MDF] (EdgeSwitch):
         href: https://10.18.216.8
         ping: 10.18.216.8
-    - Service Switch 8 [MDF]:
+    - Service Switch 8 [MDF] (EdgeSwitch):
         href: https://10.18.216.9
         ping: 10.18.216.9
-    - Service Switch 9 [MDF]:
+    - Service Switch 9 [MDF] (EdgeSwitch):
         href: https://10.18.216.10
         ping: 10.18.216.10
 
@@ -182,7 +185,7 @@
         ping: 10.18.210.248
     - Hyundai Switch 2:
         description: Womans Restroom
-        href: https://10.18.210.246
+        href: http://10.18.210.246
         ping: 10.18.210.246
 
 - Volkswagen Networking:
@@ -216,8 +219,8 @@
         href: https://10.10.11.11/
         ping: 10.10.11.11
     - Certified Switch 1:
-        href: https://10.18.213.5
-        ping: 10.18.213.5
+        href: https://10.18.213.3
+        ping: 10.18.213.3
 
 
 - Security Cameras:
